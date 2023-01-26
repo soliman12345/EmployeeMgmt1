@@ -1,6 +1,6 @@
 ﻿namespace EmployeeMgmt1
 {
-    partial class EditBtn
+    partial class Departments
     {
         /// <summary>
         /// Required designer variable.

@@ -19,10 +19,15 @@ namespace EmployeeMgmt1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            void pictureBox1_Click(object sender
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
