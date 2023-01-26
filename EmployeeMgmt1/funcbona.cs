@@ -13,5 +13,9 @@ namespace EmployeeMgmt1
         private SqlConnection Con;
         private SqlCommand Cmd;
         private DataTable dt;
-    }
+        private SqlDataAdapter sda;
+        private String ConStr;
+        public funcbona()
+        {
+        }
 }
