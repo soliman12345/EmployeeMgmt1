@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-Update DepartmentTb1 set Depname
+Update DepartmentTb1 set Depnamelogin Obj
 using System.Windows.Forms;
 
 namespace EmployeeMgmt1
