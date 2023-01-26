@@ -1,6 +1,6 @@
 ﻿namespace EmployeeMgmt1
 {
-    partial class Form4
+    partial class EditBtn
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditBtn));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.DepNameTb = new System.Windows.Forms.TextBox();
@@ -37,7 +37,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.E = new System.Windows.Forms.Button();
             this.AddPtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -128,18 +128,18 @@
             this.label5.Text = "Elployeo";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // button2
+            // E
             // 
-            this.button2.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(181, 389);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 36);
-            this.button2.TabIndex = 27;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = false;
+            this.E.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.E.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E.ForeColor = System.Drawing.Color.Black;
+            this.E.Location = new System.Drawing.Point(181, 389);
+            this.E.Name = "E";
+            this.E.Size = new System.Drawing.Size(88, 36);
+            this.E.TabIndex = 27;
+            this.E.Text = "Update";
+            this.E.UseVisualStyleBackColor = false;
             // 
             // AddPtn
             // 
@@ -229,7 +229,7 @@
             this.pictureBox5.TabIndex = 33;
             this.pictureBox5.TabStop = false;
             // 
-            // Form4
+            // EditBtn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -242,7 +242,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.E);
             this.Controls.Add(this.AddPtn);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel1);
@@ -251,7 +251,7 @@
             this.Controls.Add(this.DepNameTb);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form4";
+            this.Name = "EditBtn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
             this.Load += new System.EventHandler(this.Form4_Load);
@@ -277,7 +277,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button E;
         private System.Windows.Forms.Button AddPtn;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
