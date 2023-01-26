@@ -41,5 +41,10 @@ namespace EmployeeMgmt1
         {
 
         }
+
+        private void AddPtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

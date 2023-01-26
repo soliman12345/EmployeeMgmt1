@@ -154,6 +154,7 @@
             this.AddPtn.TabIndex = 26;
             this.AddPtn.Text = "Add";
             this.AddPtn.UseVisualStyleBackColor = false;
+            this.AddPtn.Click += new System.EventHandler(this.AddPtn_Click);
             // 
             // pictureBox2
             // 
