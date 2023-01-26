@@ -226,13 +226,14 @@
             // 
             // gunaDateTimePicker1
             // 
-            this.gunaDateTimePicker1.BaseColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker1.BackColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker1.BaseColor = System.Drawing.Color.Teal;
             this.gunaDateTimePicker1.BorderColor = System.Drawing.Color.Silver;
             this.gunaDateTimePicker1.CustomFormat = null;
             this.gunaDateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
             this.gunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaDateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaDateTimePicker1.ForeColor = System.Drawing.Color.Black;
+            this.gunaDateTimePicker1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.gunaDateTimePicker1.Location = new System.Drawing.Point(55, 585);
             this.gunaDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.gunaDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
@@ -248,7 +249,7 @@
             // 
             // gunaDateTimePicker2
             // 
-            this.gunaDateTimePicker2.BaseColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker2.BaseColor = System.Drawing.Color.Teal;
             this.gunaDateTimePicker2.BorderColor = System.Drawing.Color.Silver;
             this.gunaDateTimePicker2.CustomFormat = null;
             this.gunaDateTimePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
@@ -291,6 +292,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "from_2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
