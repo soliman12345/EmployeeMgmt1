@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace EmployeeMgmt1
 {
@@ -22,7 +23,11 @@ namespace EmployeeMgmt1
             Cmd = new SqlCommand();
             Cmd.Connection = Con;
         }
-        public DataTable GetData(string Query)
+        public DataTable GetData(string Query
+             dt = new DataTable();
+        sda = new SqlDataAdapter(Query, ConStr);
+        sda.Fill(dt);
+            return dt;
         {
 
             {
