@@ -32,7 +32,6 @@
             this.gunaDateTimePicker2 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -44,6 +43,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.gunaDateTimePicker3 = new Guna.UI.WinForms.GunaDateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -97,22 +100,10 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(53, 537);
+            this.comboBox2.Location = new System.Drawing.Point(529, 623);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(261, 32);
             this.comboBox2.TabIndex = 35;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "male ",
-            "female"});
-            this.comboBox1.Location = new System.Drawing.Point(55, 418);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(261, 32);
-            this.comboBox1.TabIndex = 34;
             // 
             // pictureBox1
             // 
@@ -164,9 +155,9 @@
             this.label5.ForeColor = System.Drawing.Color.Teal;
             this.label5.Location = new System.Drawing.Point(58, 475);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(210, 24);
+            this.label5.Size = new System.Drawing.Size(66, 24);
             this.label5.TabIndex = 29;
-            this.label5.Text = "Employee Department";
+            this.label5.Text = "period";
             // 
             // label4
             // 
@@ -175,9 +166,9 @@
             this.label4.ForeColor = System.Drawing.Color.Teal;
             this.label4.Location = new System.Drawing.Point(58, 376);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(167, 24);
+            this.label4.Size = new System.Drawing.Size(141, 24);
             this.label4.TabIndex = 28;
-            this.label4.Text = "Employee Gender";
+            this.label4.Text = "Days Attended";
             // 
             // label3
             // 
@@ -229,17 +220,75 @@
             this.panel2.Size = new System.Drawing.Size(200, 100);
             this.panel2.TabIndex = 38;
             // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "male ",
+            "female"});
+            this.comboBox3.Location = new System.Drawing.Point(53, 302);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(261, 32);
+            this.comboBox3.TabIndex = 39;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "male ",
+            "female"});
+            this.comboBox4.Location = new System.Drawing.Point(777, 453);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(261, 32);
+            this.comboBox4.TabIndex = 40;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(53, 403);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(263, 32);
+            this.textBox1.TabIndex = 41;
+            // 
+            // gunaDateTimePicker3
+            // 
+            this.gunaDateTimePicker3.BackColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker3.BaseColor = System.Drawing.Color.Teal;
+            this.gunaDateTimePicker3.BorderColor = System.Drawing.Color.Silver;
+            this.gunaDateTimePicker3.CustomFormat = null;
+            this.gunaDateTimePicker3.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.gunaDateTimePicker3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaDateTimePicker3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaDateTimePicker3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.gunaDateTimePicker3.Location = new System.Drawing.Point(53, 524);
+            this.gunaDateTimePicker3.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.gunaDateTimePicker3.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.gunaDateTimePicker3.Name = "gunaDateTimePicker3";
+            this.gunaDateTimePicker3.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker3.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaDateTimePicker3.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaDateTimePicker3.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaDateTimePicker3.Size = new System.Drawing.Size(261, 30);
+            this.gunaDateTimePicker3.TabIndex = 42;
+            this.gunaDateTimePicker3.Text = "Thursday, January 26, 2023";
+            this.gunaDateTimePicker3.Value = new System.DateTime(2023, 1, 26, 15, 22, 11, 330);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1814, 939);
+            this.Controls.Add(this.gunaDateTimePicker3);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.gunaDateTimePicker2);
             this.Controls.Add(this.gunaDateTimePicker1);
             this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -268,7 +317,6 @@
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker2;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -280,5 +328,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.TextBox textBox1;
+        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker3;
     }
 }
