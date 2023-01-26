@@ -33,7 +33,7 @@ namespace EmployeeMgmt1
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
+        {class Employees
 
         }
     }

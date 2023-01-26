@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualBasic.ApplicationServices;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,38 +7,57 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Linq;
 
 namespace EmployeeMgmt1
 {
-    public partial class Form1 : Form
+    public partial class login : Form
     {
-        public Form1()
+        public login()
         {
             InitializeComponent();
         }
-        Employees Obj = new Employees
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            void pictureBox1_Click(object senderMessageBox.Show("Missing Data
-        }
-        MessageBox.Show("Missing Data
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            void login_Load(object sender, EventArgs
-        }
-        PasswordTb.Text
-            ResetLbl_Click(object sender, EventArgs e)
-        {
-        {
-        {
-                    {
-                        wrong user name UName.Text
-                        private void button1_Click(object sender, EventArgs e)
-        {
-            user name or password
 
         }
-    }
-}
-textBox1_TextChanged
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (UNameTb.Text == "" || PasswordTb.Text == "")
+            {
+                MessageBox.Show("Missing Data!!!");
+            }
+            else if (UNameTb.Text == "Admin" && PasswordTb.Text == "Password")
+            {
+                Employees Obj = new Employees();
+                Obj.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("wrong user name or password!!!");
+                UNameTb.Text = "";
+                PasswordTb.Text = "";
+            }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ResetLbl_Click(object sender, EventArgs e)
+        {
+            UNameTb.Text = "";
+            PasswordTb.Text = "";
