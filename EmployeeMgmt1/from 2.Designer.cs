@@ -37,7 +37,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -47,6 +46,7 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
             this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
+            this.gunaDateTimePicker2 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -134,14 +134,6 @@
             this.label6.Size = new System.Drawing.Size(117, 24);
             this.label6.TabIndex = 11;
             this.label6.Text = "Date of Bith";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(55, 576);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(263, 32);
-            this.textBox4.TabIndex = 12;
             // 
             // textBox5
             // 
@@ -241,7 +233,7 @@
             this.gunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaDateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaDateTimePicker1.ForeColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker1.Location = new System.Drawing.Point(55, 700);
+            this.gunaDateTimePicker1.Location = new System.Drawing.Point(55, 585);
             this.gunaDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.gunaDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.gunaDateTimePicker1.Name = "gunaDateTimePicker1";
@@ -254,12 +246,35 @@
             this.gunaDateTimePicker1.Text = "Thursday, January 26, 2023";
             this.gunaDateTimePicker1.Value = new System.DateTime(2023, 1, 26, 15, 22, 11, 330);
             // 
+            // gunaDateTimePicker2
+            // 
+            this.gunaDateTimePicker2.BaseColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker2.BorderColor = System.Drawing.Color.Silver;
+            this.gunaDateTimePicker2.CustomFormat = null;
+            this.gunaDateTimePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.gunaDateTimePicker2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaDateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaDateTimePicker2.ForeColor = System.Drawing.Color.Black;
+            this.gunaDateTimePicker2.Location = new System.Drawing.Point(53, 707);
+            this.gunaDateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.gunaDateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.gunaDateTimePicker2.Name = "gunaDateTimePicker2";
+            this.gunaDateTimePicker2.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker2.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaDateTimePicker2.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaDateTimePicker2.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaDateTimePicker2.Size = new System.Drawing.Size(261, 30);
+            this.gunaDateTimePicker2.TabIndex = 23;
+            this.gunaDateTimePicker2.Text = "Thursday, January 26, 2023";
+            this.gunaDateTimePicker2.Value = new System.DateTime(2023, 1, 26, 15, 22, 11, 330);
+            // 
             // from_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1857, 941);
+            this.Controls.Add(this.gunaDateTimePicker2);
             this.Controls.Add(this.gunaDateTimePicker1);
             this.Controls.Add(this.gunaComboBox1);
             this.Controls.Add(this.comboBox2);
@@ -269,7 +284,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -300,7 +314,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -310,5 +323,6 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
+        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker2;
     }
 }
