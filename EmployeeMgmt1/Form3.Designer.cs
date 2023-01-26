@@ -47,6 +47,7 @@
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.gunaDateTimePicker3 = new Guna.UI.WinForms.GunaDateTimePicker();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -275,12 +276,22 @@
             this.gunaDateTimePicker3.Text = "Thursday, January 26, 2023";
             this.gunaDateTimePicker3.Value = new System.DateTime(2023, 1, 26, 15, 22, 11, 330);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(785, 461);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(261, 32);
+            this.comboBox1.TabIndex = 43;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1814, 939);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.gunaDateTimePicker3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox4);
@@ -332,5 +343,6 @@
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.TextBox textBox1;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker3;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
