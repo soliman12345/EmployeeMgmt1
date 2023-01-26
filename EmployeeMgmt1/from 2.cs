@@ -21,6 +21,8 @@ namespace EmployeeMgmt1
         {
 
         }
+        ShowEmp();
+        GetDepartment
 
         private void label3_Click(object sender, EventArgs e)
         {
