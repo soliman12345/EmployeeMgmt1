@@ -57,7 +57,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -409,19 +408,6 @@
             this.button4.Text = "Add";
             this.button4.UseVisualStyleBackColor = false;
             // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(921, 459);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(91, 36);
-            this.button5.TabIndex = 58;
-            this.button5.Text = "Update";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.Teal;
@@ -455,7 +441,6 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1814, 939);
             this.Controls.Add(this.button8);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
@@ -533,7 +518,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button8;
     }
