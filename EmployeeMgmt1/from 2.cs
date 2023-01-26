@@ -16,5 +16,10 @@ namespace EmployeeMgmt1
         {
             InitializeComponent();
         }
+
+        private void from_2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
