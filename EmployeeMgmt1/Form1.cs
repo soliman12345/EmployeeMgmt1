@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace EmployeeMgmt1
 {
@@ -30,7 +31,11 @@ namespace EmployeeMgmt1
         PasswordTb.Text
             ResetLbl_Click(object sender, EventArgs e)
         {
-            private void button1_Click(object sender, EventArgs e)
+        {
+        {
+                    {
+                        wrong user name UName.Text
+                        private void button1_Click(object sender, EventArgs e)
         {
             user name or password
 
