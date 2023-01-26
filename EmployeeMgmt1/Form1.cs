@@ -27,6 +27,7 @@ namespace EmployeeMgmt1
         {
             void login_Load(object sender, EventArgs
         }
+        PasswordTb.Text
 
         private void button1_Click(object sender, EventArgs e)
         {
