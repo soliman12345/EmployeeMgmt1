@@ -24,7 +24,7 @@ namespace EmployeeMgmt1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            void login_Load(object sender, EventArgs
         }
 
         private void button1_Click(object sender, EventArgs e)
