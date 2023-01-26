@@ -16,7 +16,7 @@ namespace EmployeeMgmt1
         {
             InitializeComponent();
         }
-
+        Employees Obj = new Employees
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             void pictureBox1_Click(object senderMessageBox.Show("Missing Data
