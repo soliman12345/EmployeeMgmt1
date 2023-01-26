@@ -34,6 +34,7 @@ namespace EmployeeMgmt1
 
         private void label6_Click(object sender, EventArgs e)
         {
+        DepList.DataSource string Query
 
         }
 
