@@ -32,7 +32,7 @@ namespace EmployeeMgmt1
 
     }
     string Dep = DepNameTb.Text
-
+        ShowDepartments MessageBox
         private void label6_Click(object sender, EventArgs e)  private void AddBtn_Click(object sender, EventArgs e MessageBox.Show("missing data!!!")
     {
         DepList.DataSource string Query
