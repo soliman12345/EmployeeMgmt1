@@ -46,6 +46,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -229,12 +230,21 @@
             this.pictureBox5.TabIndex = 33;
             this.pictureBox5.TabStop = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(586, 379);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(263, 32);
+            this.textBox1.TabIndex = 35;
+            // 
             // EditBtn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1434, 790);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label6);
@@ -286,5 +296,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
