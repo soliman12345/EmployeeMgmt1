@@ -306,7 +306,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "from_2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "from_2";
+            this.Text = "  ";
             this.Load += new System.EventHandler(this.from_2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
