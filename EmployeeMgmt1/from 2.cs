@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace EmployeeMgmt1
 {
-    public partial class Form1 : Form
+    public partial class from_2 : Form
     {
-        public Form1()
+        public from_2()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
