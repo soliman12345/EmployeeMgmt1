@@ -144,9 +144,9 @@
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(58, 587);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(117, 24);
+            this.label6.Size = new System.Drawing.Size(140, 24);
             this.label6.TabIndex = 30;
-            this.label6.Text = "Date of Bith";
+            this.label6.Text = "Salary Amount";
             // 
             // label5
             // 
