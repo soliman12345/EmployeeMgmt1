@@ -23,7 +23,7 @@ namespace EmployeeMgmt1
         }
         ShowEmp();
         GetDepartment
-
+            Select* from EmployeeTb
         private void label3_Click(object sender, EventArgs e)
         {
 
