@@ -24,7 +24,7 @@ namespace EmployeeMgmt1
             Cmd.Connection = Con;
         }
         public DataTable GetData(string Query
-             dt = new DataTable();
+             dt = new DataTable();x
         sda = new SqlDataAdapter(Query, ConStr);
         sda.Fill(dt);s
             return dt;j
