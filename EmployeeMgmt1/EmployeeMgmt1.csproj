@@ -82,6 +82,7 @@
       <DependentUpon>from 2.cs</DependentUpon>
     </Compile>
     <Compile Include="funcbona.cs" />
+    <Compile Include="Functions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
