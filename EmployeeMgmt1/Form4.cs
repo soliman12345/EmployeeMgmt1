@@ -14,7 +14,7 @@ namespace EmployeeMgmt1
 {
     public partial class EditBtn : Form
     {
-        public EditBtn() InitializeComponent private void ShowDepartments
+        public EditBtn() InitializeComponent private void ShowDepartmentsDelete from DepartmentTb1 where Depid
         {
             InitializeComponent();
         }
