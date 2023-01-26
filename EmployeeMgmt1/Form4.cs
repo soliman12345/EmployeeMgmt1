@@ -32,7 +32,7 @@ namespace EmployeeMgmt1
 
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)  private void AddBtn_Click(object sender, EventArgs e
         {
         DepList.DataSource string Query
 
