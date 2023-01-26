@@ -35,6 +35,9 @@ namespace EmployeeMgmt1
         {
 
     }
+Obj.Show();
+this.HideObj.Show();
+this.Hide
     string Dep = DepNameTb.Text
         ShowDepartments MessageBox
         private void label6_Click(object sender, EventArgs e)  private void AddBtn_Click(object sender, EventArgs e MessageBox.Show("missing data!!!")
