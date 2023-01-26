@@ -14,6 +14,7 @@ namespace EmployeeMgmt1
 {
     public partial class EditBtn : Form
     {
+        Employees obj
         public EditBtn() InitializeComponent private void ShowDepartmentsDelete from DepartmentTb1 where Depid
         {
             InitializeComponent();
