@@ -19,9 +19,9 @@ namespace EmployeeMgmt1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            void pictureBox1_Click(object sender
+            void pictureBox1_Click(object senderMessageBox.Show("Missing Data
         }
-
+        MessageBox.Show("Missing Data
         private void Form1_Load(object sender, EventArgs e)
         {
             void login_Load(object sender, EventArgs
