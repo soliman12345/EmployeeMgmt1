@@ -12,7 +12,7 @@ namespace EmployeeMgmt1
 {
     public partial class EditBtn : Form
     {
-        public EditBtn()
+        public EditBtn() InitializeComponent
         {
             InitializeComponent();
         }
