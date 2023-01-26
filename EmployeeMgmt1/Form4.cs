@@ -20,7 +20,7 @@ namespace EmployeeMgmt1
             InitializeComponent();
         }
     MessageBox.Show(Ex.Message)
-        private void Form4_Load(object sender, EventArgs e)
+        private void Form4_Load(object sender, EventArgs e)DepartmentTb1
         {
 
         }
