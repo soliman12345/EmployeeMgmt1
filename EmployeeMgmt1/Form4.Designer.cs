@@ -90,9 +90,9 @@
             this.label2.ForeColor = System.Drawing.Color.Teal;
             this.label2.Location = new System.Drawing.Point(580, 178);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(264, 28);
+            this.label2.Size = new System.Drawing.Size(207, 28);
             this.label2.TabIndex = 20;
-            this.label2.Text = "manago Departments";
+            this.label2.Text = "Departments list";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel1
@@ -121,7 +121,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(473, 135);
+            this.label5.Location = new System.Drawing.Point(466, 116);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(95, 24);
             this.label5.TabIndex = 25;
@@ -134,9 +134,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(723, 377);
+            this.button2.Location = new System.Drawing.Point(181, 389);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(91, 36);
+            this.button2.Size = new System.Drawing.Size(88, 36);
             this.button2.TabIndex = 27;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
@@ -147,7 +147,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(621, 377);
+            this.button1.Location = new System.Drawing.Point(84, 389);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 36);
             this.button1.TabIndex = 26;
@@ -157,7 +157,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(410, 122);
+            this.pictureBox2.Location = new System.Drawing.Point(403, 103);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(57, 41);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -167,7 +167,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(574, 122);
+            this.pictureBox3.Location = new System.Drawing.Point(567, 103);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(57, 41);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -179,7 +179,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(643, 135);
+            this.label1.Location = new System.Drawing.Point(636, 116);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 24);
             this.label1.TabIndex = 30;
@@ -190,7 +190,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(859, 135);
+            this.label6.Location = new System.Drawing.Point(852, 116);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 24);
             this.label6.TabIndex = 32;
@@ -200,7 +200,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(790, 122);
+            this.pictureBox4.Location = new System.Drawing.Point(783, 103);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(57, 41);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -213,7 +213,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Teal;
-            this.label7.Location = new System.Drawing.Point(1013, 135);
+            this.label7.Location = new System.Drawing.Point(1006, 116);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 24);
             this.label7.TabIndex = 34;
@@ -222,7 +222,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(936, 122);
+            this.pictureBox5.Location = new System.Drawing.Point(929, 103);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(57, 41);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -253,7 +253,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form4";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
