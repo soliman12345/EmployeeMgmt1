@@ -260,22 +260,23 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(96, 850);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(171, 36);
+            this.button1.Size = new System.Drawing.Size(79, 36);
             this.button1.TabIndex = 24;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Teal;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Teal;
-            this.button2.Location = new System.Drawing.Point(843, 452);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(198, 850);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(171, 36);
+            this.button2.Size = new System.Drawing.Size(91, 36);
             this.button2.TabIndex = 25;
-            this.button2.Text = "LOGIN";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // from_2
             // 
