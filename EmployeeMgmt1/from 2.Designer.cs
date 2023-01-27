@@ -1,6 +1,6 @@
 ﻿namespace EmployeeMgmt1
 {
-    partial class from_2
+    partial class Employees
     {
         /// <summary>
         /// Required designer variable.
