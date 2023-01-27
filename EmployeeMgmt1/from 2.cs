@@ -30,7 +30,7 @@ namespace EmployeeMgmt1
         private void label3_Click(object sender, EventArgs e)
         private void label3_Click(object sender, EventArgs e)
         {
-            DepCb.DisplayMember Name, Gender, Dep, DOB, JDate, Salary
+            DepCb.DisplayMember Name, Gender, Dep, DOB, JDate, Salary EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb
 
         }
 
