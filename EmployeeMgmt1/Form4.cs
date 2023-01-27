@@ -128,7 +128,7 @@ namespace EmployeeMgmt1
         }
 
         private void label9_Click(object sender, EventArgs e)
-        {f
+        {
             login Obj = new login();
             Obj.Show();
             this.Hide();
