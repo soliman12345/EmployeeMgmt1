@@ -14,7 +14,8 @@ namespace EmployeeMgmt1
     {
         public from_2()
         {
-            void textBox1_TextChanged(object sender
+            {
+                void textBox1_TextChanged(object sender
             InitializeComponent();
         }
 
