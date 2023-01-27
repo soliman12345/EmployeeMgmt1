@@ -52,7 +52,7 @@ namespace EmployeeMgmt1
                 UNameTb.Text = "";
                 PasswordTb.Text = "";  
             }
-        }
+        } 
         Add butten login
 text box password color tear text box user name add img add Picturebox add label
 add panel color teal
