@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace EmployeeMgmt1
 {
-    public partial class from_2 : Form
+    public partial class from_2 : FormSelectedRows
     {
         public from_2()
         {
