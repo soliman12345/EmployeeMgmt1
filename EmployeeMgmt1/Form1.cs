@@ -54,7 +54,7 @@ namespace EmployeeMgmt1
             }
         } 
         Add butten login
-text box password color tear text box user name add img add Picturebox add label
+text box password color tear text box user name add img add Picturebox add label 
 add panel color teal
         private void label3_Click(object sender, EventArgs e)
         {
