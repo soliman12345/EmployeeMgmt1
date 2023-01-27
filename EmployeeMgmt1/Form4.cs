@@ -120,7 +120,7 @@ namespace EmployeeMgmt1
             this.Hide();
         }
 
-        private void label10_Click(object sender, EventArgs e)
+        private void label10_Click(object sender, EventArgs e) 
         {
             Salary Obj = new Salary();
             Obj.Show();
