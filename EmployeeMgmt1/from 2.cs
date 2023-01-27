@@ -21,7 +21,7 @@ namespace EmployeeMgmt1
 
         private void from_2_Load(object sender, EventArgs e)
         {
-
+                void UpdateBtn_Click(object sende
         }
         ShowEmp();
 
