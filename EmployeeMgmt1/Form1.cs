@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace EmployeeMgmt1
 {
@@ -48,10 +50,12 @@ namespace EmployeeMgmt1
             {
                 MessageBox.Show("wrong user name or password!!!");
                 UNameTb.Text = "";
-                PasswordTb.Text = ""; 
+                PasswordTb.Text = "";
             }
         }
-         
+        Add butten login
+text box password color tear text box user name add img add Picturebox add label
+add panel color teal
         private void label3_Click(object sender, EventArgs e)
         {
 
