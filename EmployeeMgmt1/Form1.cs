@@ -64,4 +64,4 @@ add panel color teal
         private void ResetLbl_Click(object sender, EventArgs e)
         {
             UNameTb.Text = "";
-            PasswordTb.Text = "";
+            PasswordTb.Text = ""; 
