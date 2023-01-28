@@ -18,7 +18,7 @@ namespace EmployeeMgmt1
             InitializeComponent();
             Con = new Functions();
             ShowEmp();
-            GetDepartment();
+            GetDepartment(); 
         }
         private void ShowEmp()
         {
@@ -27,7 +27,7 @@ namespace EmployeeMgmt1
                 string Query = "Select * from EmployeeTb1";
                 EmployeeList.DataSource = Con.GetData(Query);
             }
-            catch (Exception)
+            catch (Exception) 
             {
                 throw;
             }
@@ -93,14 +93,14 @@ namespace EmployeeMgmt1
                     string JDate = JDateTb.Value.ToString();
                     int Salary = Convert.ToInt32(DailySalTb.Text);
                     string Query = "insert into EmployeeTb1 values('{0}','{1}',{2},'{3}','{4}',{5})";
-                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary);
+                    Query = string.Format(Query, Name,Gender,Dep,DOB,JDate,Salary);
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Emoloyee Updated!!!");
                     EmpNameTb.Text = "";
                     DailySalTb.Text = "";
                     GenCb.SelectedIndex = -1;
-                    DepCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex= -1;
                 }
             }
             catch (Exception Ex)
@@ -113,7 +113,7 @@ namespace EmployeeMgmt1
         {
             try
             {
-                if (key == 0)
+                if(key == 0)               
                 {
                     MessageBox.Show("missing data!!!");
                 }
@@ -126,7 +126,7 @@ namespace EmployeeMgmt1
                     string JDate = JDateTb.Value.ToString();
                     int Salary = Convert.ToInt32(DailySalTb.Text);
                     string Query = "Delete from EmployeeTb1 where Empid= {0}";
-                    Query = string.Format(Query, key);
+                    Query = string.Format(Query,key);
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Emoloyee Deleted!!!");
@@ -159,7 +159,7 @@ namespace EmployeeMgmt1
                     string JDate = JDateTb.Value.Date.ToString();
                     int Salary = Convert.ToInt32(DailySalTb.Text);
                     string Query = "Update EmployeeTb1 set EmpName = '{0}',EmpGen='{1}',EmpDep={2},EmpDOB='{3}',Empjdate='{4}',EmpSal={5} where Empid= {6}";
-                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary, key);
+                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary,key);
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Emoloyee Updated!!!");
