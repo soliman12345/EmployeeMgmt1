@@ -45,7 +45,7 @@ namespace EmployeeMgmt1
                 Employees Obj = new Employees();
                 Obj.Show(); 
                 this.Hide();
-            }
+            } 
             else  
             {
                 MessageBox.Show("wrong user name or password!!!");  
