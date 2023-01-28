@@ -47,7 +47,7 @@ namespace EmployeeMgmt1
                 this.Hide();
             } 
             else  
-            {
+            { 
                 MessageBox.Show("wrong user name or password!!!");  
                 UNameTb.Text = "";        
                 PasswordTb.Text = "";  
